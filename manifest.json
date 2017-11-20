@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "Airly Air Pollution",
+  "version": "0.1",
+
+  "description": "Presents air pollution from the nearest Airly sensor",
+
+"permissions":  ["alarms", "geolocation", "storage"], 
+"background": {
+	"scripts": ["airly.js"]
+},	
+
+  "browser_action": {
+    "default_icon": "icons/icon.png",
+    "default_title": "Login"
+  },
+"options_ui": {
+    "page": "options.html"
+  }
+}
