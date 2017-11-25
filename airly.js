@@ -18,7 +18,7 @@ function setIconCaqi(caqi){
 	  else if(caqi < 50) color="#F0DD00"; 
 	  else if(caqi < 75) color="#FF0000"; 
 	  else if(caqi < 100) color="#ae00ff"; 
-	  else if (caqi > 125) color="#ae00ff";
+	  else if (caqi > 100) color="#ae00ff";
 	  else {
 			color="#aeaeae"; 
 			caqi="?";
